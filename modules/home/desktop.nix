@@ -165,30 +165,30 @@
         };
       };
     };
-    plugins = {
-      sources = [
-        {
-          enabled = true;
-          name = "Official Noctalia Plugins";
-          url = "https://github.com/noctalia-dev/noctalia-plugins";
-        }
-      ];
-      states = {
-        #screen-recorder-replay = {
-        #  enabled = true;
-        #  #sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
-        #};
-        screen-recorder = {
-          enabled = false;
-          sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
-        };
-        translator = {
-          enabled = true;
-          sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
-        };
-      };
-      version = 1;
-    };
+    #plugins = {
+    #  sources = [
+    #    {
+    #      enabled = true;
+    #      name = "Official Noctalia Plugins";
+    #      url = "https://github.com/noctalia-dev/noctalia-plugins";
+    #    }
+    #  ];
+    #  states = {
+    #    #screen-recorder-replay = {
+    #    #  enabled = true;
+    #    #  #sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
+    #    #};
+    #    screen-recorder = {
+    #      enabled = false;
+    #      sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
+    #    };
+    #    translator = {
+    #      enabled = true;
+    #      sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
+    #    };
+    #  };
+    #  version = 1;
+    #};
 
     #pluginSettings = {
     #screen-recorder-replay = {
