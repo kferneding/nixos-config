@@ -174,10 +174,10 @@
         }
       ];
       states = {
-        screen-recorder-replay = {
-          enabled = true;
-          #sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
-        };
+        #screen-recorder-replay = {
+        #  enabled = true;
+        #  #sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
+        #};
         screen-recorder = {
           enabled = false;
           sourceUrl = "https://github.com/noctalia-dev/noctalia-plugins";
