@@ -191,12 +191,12 @@
     };
 
     pluginSettings = {
-      screen-recorder-replay = {
-        resolution = "3840x2160";
-        replayLength = "60";
-        quality = "ultra";
-        copyToClipboard = true;
-      };
+      #screen-recorder-replay = {
+      #  resolution = "3840x2160";
+      #  replayLength = "60";
+      #  quality = "ultra";
+      #  copyToClipboard = true;
+      #};
     };
   };
 
