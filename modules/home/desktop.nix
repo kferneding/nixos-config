@@ -190,14 +190,14 @@
       version = 1;
     };
 
-    pluginSettings = {
-      #screen-recorder-replay = {
-      #  resolution = "3840x2160";
-      #  replayLength = "60";
-      #  quality = "ultra";
-      #  copyToClipboard = true;
-      #};
-    };
+    #pluginSettings = {
+    #screen-recorder-replay = {
+    #  resolution = "3840x2160";
+    #  replayLength = "60";
+    #  quality = "ultra";
+    #  copyToClipboard = true;
+    #};
+    #};
   };
 
   programs.mpv.enable = true; # media player
