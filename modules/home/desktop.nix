@@ -21,8 +21,8 @@
     };
   };
 
-  stylix.targets.noctalia-shell.enable = false;
-  programs.noctalia-shell = {
+  stylix.targets.noctalia.enable = false;
+  programs.noctalia = {
     enable = true;
     settings = {
       settingsVersion = 0;
