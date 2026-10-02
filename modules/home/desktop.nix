@@ -139,12 +139,12 @@
               enableDrawer = true;
             }
             # use my own better recorder (still some errors because nixos)
-            {
-              id = "plugin:screen-recorder-replay";
-            }
             #{
-            #  id = "plugin:screen-recorder";
+            #  id = "plugin:screen-recorder-replay";
             #}
+            {
+              id = "plugin:screen-recorder";
+            }
             {
               id = "Volume";
             }
